@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 import tensorflow as tf
 
-def train_predict_daily_vix_with_ltsm():
+def train_predict_daily_vix_with_lstm():
     vix = pd.read_csv(
         'C:/Users/SUPREME/Documents/GitHub/time-series-predictions/VIX-daily.csv',)\
             .dropna()
@@ -76,7 +76,7 @@ def train_predict_daily_vix_with_ltsm():
 
     x=0
 
-def train_predict_weekly_ltsm():
+def train_predict_weekly_lstm():
     vix = pd.read_csv(
         'C:/Users/SUPREME/Documents/GitHub/time-series-predictions/VIX-weekly.csv',)\
             .dropna()
@@ -162,5 +162,8 @@ def train_predict_weekly_ltsm():
 
     x=0
 
-#train_predict_daily_vix_with_ltsm()
-train_predict_weekly_ltsm()
+# run this for daily predictions
+train_predict_daily_vix_with_lstm()
+
+# run this for weekly predictions
+train_predict_weekly_lstm()
