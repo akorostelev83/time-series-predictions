@@ -3,4 +3,7 @@
 [Recurrent Neural Network RNN model training on Colab's TPU processors](https://github.com/akorostelev83/time-series-predictions/blob/main/RNN-model-trained-with-TPU.py)
 
 
-[Ensemble Models, Classification & Multi-Modal Approach for time-series predictions](https://github.com/akorostelev83/time-series-predictions/blob/main/time-series-predictions-using-ensembled-models.ipynb)
+[Stacked Regression, Ensemble Models, Classification & Multi-Modal Approach for time-series predictions](https://github.com/akorostelev83/time-series-predictions/blob/main/time-series-predictions-using-ensembled-models.ipynb)
+
+
+[Stock Market Daily/Weekly Volatility Predictions using LSTM ](https://github.com/akorostelev83/time-series-predictions/blob/main/market-LSTM.py)
